@@ -1,0 +1,13 @@
+/workspaces/LimitOrderBook/src/LimitOrderBook.Core/bin/Release/net8.0/LimitOrderBook.Core.deps.json
+/workspaces/LimitOrderBook/src/LimitOrderBook.Core/bin/Release/net8.0/LimitOrderBook.Core.dll
+/workspaces/LimitOrderBook/src/LimitOrderBook.Core/bin/Release/net8.0/LimitOrderBook.Core.pdb
+/workspaces/LimitOrderBook/src/LimitOrderBook.Core/obj/Release/net8.0/LimitOrderBook.Core.csproj.AssemblyReference.cache
+/workspaces/LimitOrderBook/src/LimitOrderBook.Core/obj/Release/net8.0/LimitOrderBook.Core.GeneratedMSBuildEditorConfig.editorconfig
+/workspaces/LimitOrderBook/src/LimitOrderBook.Core/obj/Release/net8.0/LimitOrderBook.Core.AssemblyInfoInputs.cache
+/workspaces/LimitOrderBook/src/LimitOrderBook.Core/obj/Release/net8.0/LimitOrderBook.Core.AssemblyInfo.cs
+/workspaces/LimitOrderBook/src/LimitOrderBook.Core/obj/Release/net8.0/LimitOrderBook.Core.csproj.CoreCompileInputs.cache
+/workspaces/LimitOrderBook/src/LimitOrderBook.Core/obj/Release/net8.0/LimitOrderBook.Core.sourcelink.json
+/workspaces/LimitOrderBook/src/LimitOrderBook.Core/obj/Release/net8.0/LimitOrderBook.Core.dll
+/workspaces/LimitOrderBook/src/LimitOrderBook.Core/obj/Release/net8.0/refint/LimitOrderBook.Core.dll
+/workspaces/LimitOrderBook/src/LimitOrderBook.Core/obj/Release/net8.0/LimitOrderBook.Core.pdb
+/workspaces/LimitOrderBook/src/LimitOrderBook.Core/obj/Release/net8.0/ref/LimitOrderBook.Core.dll

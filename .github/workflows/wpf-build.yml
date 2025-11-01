@@ -1,0 +1,46 @@
+name: Build WPF (limitorderbook)
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+  workflow_dispatch:   # allows manual trigger from Actions tab
+
+jobs:
+  build:
+    runs-on: windows-latest
+
+    defaults:
+      run:
+        working-directory: src    # your solution is inside /src
+
+    steps:
+      # 🧾 Step 1: Checkout repo
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      # ⚙️ Step 2: Install .NET 8 SDK
+      - name: Setup .NET
+        uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: '8.0.x'
+
+      # 📦 Step 3: Restore dependencies
+      - name: Restore
+        run: dotnet restore LimitOrderBook.sln
+
+      # 🏗️ Step 4: Build in Release mode
+      - name: Build (Release)
+        run: dotnet build LimitOrderBook.sln -c Release --no-restore
+
+      # 🚀 Step 5: Publish a self-contained Windows build
+      - name: Publish (win-x64)
+        run: dotnet publish LimitOrderBook.App/LimitOrderBook.App.csproj -c Release -r win-x64 --self-contained true /p:PublishSingleFile=true /p:IncludeNativeLibrariesForSelfExtract=true
+
+      # 📤 Step 6: Upload EXE as artifact
+      - name: Upload build artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: limitorderbook-win-x64
+          path: |
+            **/bin/Release/**/win-x64/publish/**

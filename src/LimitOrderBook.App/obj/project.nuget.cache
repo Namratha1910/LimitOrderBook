@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "ypZKq0uhbWc=",
+  "success": true,
+  "projectFilePath": "/workspaces/LimitOrderBook/src/LimitOrderBook.App/LimitOrderBook.App.csproj",
+  "expectedPackageFiles": [
+    "/home/vscode/.nuget/packages/communitytoolkit.mvvm/8.4.0/communitytoolkit.mvvm.8.4.0.nupkg.sha512",
+    "/home/vscode/.nuget/packages/microsoft.net.illink.tasks/8.0.21/microsoft.net.illink.tasks.8.0.21.nupkg.sha512",
+    "/home/vscode/.nuget/packages/microsoft.windowsdesktop.app.ref/8.0.21/microsoft.windowsdesktop.app.ref.8.0.21.nupkg.sha512"
+  ],
+  "logs": []
+}
